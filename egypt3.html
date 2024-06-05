@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <main
+    style="
+      background-image: url(pictures/background.png);
+      background-position: center;
+      background-size: cover;
+      width: 1920px;
+      height: 1080px;
+    "
+  >
+    <div id="top">
+      <div class="left">
+        <div class="title">Book cover</div>
+        <div class="sub_title">
+          Join us for a delicious lunch and an Egyptian adventure! Dive into the
+          fascinating world of pharaohs, pyramids, and hieroglyphics with our
+          new Egypt encyclopedia.
+        </div>
+      </div>
+      <div class="right">
+        <div class="book_cover">
+          <div
+            class="cover"
+            style="
+              margin-top: 155px;
+              background-image: url(pictures/cover.jpg);
+              background-position: center;
+              background-size: cover;
+              height: 676px;
+            "
+          ></div>
+          <div
+            class="spine"
+            style="
+              margin-top: 155px;
+              background-image: url(pictures/spine.jpg);
+              background-position: center;
+              background-size: cover;
+              height: 676px;
+            "
+          ></div>
+          <div
+            class="back"
+            style="
+              margin-top: 155px;
+              background-image: url(pictures/backcover.png);
+              background-position: center;
+              background-size: cover;
+              height: 676px;
+            "
+          ></div>
+        </div>
+      </div>
+    </div>
+    <div id="bottom">
+      <div class="box">
+        <a href="egypt2.html" style="background-image: url(pictures/left.png)">
+          <div class="left_point"></div
+        ></a>
+        <div class="numbering">3/5</div>
+        <a href="egypt4.html" style="background-image: url(pictures/right.png)"
+          ><div class="right_point"></div
+        ></a>
+      </div>
+    </div>
+  </main>
+</html>
+<style>
+  main {
+    display: grid;
+    grid-template-rows: 940px 140px;
+  }
+  #top {
+    display: grid;
+    grid-template-columns: 705px 1043px;
+    gap: 25px;
+  }
+  .right {
+    width: 1043px;
+  }
+  .left {
+    width: 705px;
+  }
+  .book_cover {
+    width: 1086px;
+    height: 669px;
+    display: grid;
+    grid-template-columns: 477px 97px 477px;
+    gap: 10px;
+  }
+  .content_box {
+    display: grid;
+    grid-template-rows: 170px 291px;
+    gap: 70px;
+    margin-top: 200px;
+    width: 844px;
+    height: 542px;
+  }
+  .title {
+    margin-left: 100px;
+    margin-top: 300px;
+    text-align: center;
+    color: white;
+    font-size: 40pt;
+    width: 534px;
+  }
+  .sub_title {
+    text-align: center;
+    color: white;
+    font-size: 30pt;
+    width: 603px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  .logo {
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 171px;
+    width: 600px;
+    height: 710px;
+    background-image: url(pictures/logo.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .box {
+    width: 170px;
+    height: 60px;
+    margin-left: 890px;
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: 35px 100px 35px;
+  }
+  .left_point {
+    background-image: url(pictures/left.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .numbering {
+    font-size: 50px;
+    color: #f1cf83;
+    text-align: center;
+  }
+  .right_point {
+    background-position: center;
+    background-size: cover;
+    background-image: url(pictures/right.png);
+  }
+</style>

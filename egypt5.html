@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <main
+    style="
+      background-image: url(pictures/background.png);
+      background-position: center;
+      background-size: cover;
+      width: 1920px;
+      height: 1080px;
+    "
+  >
+    <div id="top">
+      <div
+        class="foot"
+        style="
+          margin-left: 100px;
+          margin-top: 200px;
+          background-image: url(pictures/footer.png);
+          width: 1704px;
+          height: 641px;
+          background-position: center;
+          background-size: cover;
+        "
+      ></div>
+    </div>
+
+    <div id="bottom">
+      <div class="box">
+        <a href="egypt4.html" style="background-image: url(pictures/left.png)"
+          ><div class="left_point"></div
+        ></a>
+        <div class="numbering">5/5</div>
+      </div>
+    </div>
+  </main>
+</html>
+<style>
+  main {
+    display: grid;
+    grid-template-rows: 940px 140px;
+  }
+  #top {
+    height: 940px;
+  }
+  .sub_title {
+    text-align: center;
+    color: white;
+    font-size: 30pt;
+    width: 603px;
+    margin-left: 650px;
+    margin-top: 500px;
+  }
+
+  #bottom {
+    height: 140px;
+  }
+  .box {
+    width: 170px;
+    height: 60px;
+    margin-left: 890px;
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: 35px 100px 35px;
+  }
+  .left_point {
+    background-image: url(pictures/left.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .numbering {
+    font-size: 50px;
+    color: #f1cf83;
+    text-align: center;
+  }
+  .right_point {
+    background-position: center;
+    background-size: cover;
+    background-image: url(pictures/right.png);
+  }
+</style>

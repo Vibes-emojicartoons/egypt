@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <main
+    style="
+      background-image: url(pictures/background.png);
+      background-position: center;
+      background-size: cover;
+      width: 1920px;
+      height: 1080px;
+    "
+  >
+    <div id="top">
+      <div class="left">
+        <div class="poster">
+          <img src="pictures/poster.png" style="width: 609px; height: 865px" />
+        </div>
+      </div>
+      <div class="right">
+        <div class="content_box">
+          <div class="title">The all new Egypt Encyclopedia</div>
+          <div class="sub_title">
+            Join us for a delicious lunch and an Egyptian adventure! Dive into
+            the fascinating world of pharaohs, pyramids, and hieroglyphics with
+            our new Egypt encyclopedia.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="bottom">
+      <div class="box">
+        <a href="index.html" style="background-image: url(pictures/left.png)">
+          <div class="left_point"></div
+        ></a>
+        <div class="numbering">2/5</div>
+        <a href="egypt3.html" style="background-image: url(pictures/right.png)"
+          ><div class="right_point"></div
+        ></a>
+      </div>
+    </div>
+  </main>
+</html>
+<style>
+  main {
+    display: grid;
+    grid-template-rows: 940px 140px;
+  }
+  #top {
+    display: grid;
+    grid-template-columns: 945px 1003px;
+  }
+  .right {
+    width: 1003px;
+  }
+  .left {
+    width: 945px;
+  }
+  .poster {
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  .content_box {
+    display: grid;
+    grid-template-rows: 170px 291px;
+    gap: 70px;
+    margin-top: 200px;
+    width: 844px;
+    height: 542px;
+  }
+  .title {
+    text-align: center;
+    color: white;
+    font-size: 49pt;
+    width: 783px;
+  }
+  .sub_title {
+    text-align: center;
+    color: white;
+    font-size: 50pt;
+    width: 866px;
+  }
+
+  .logo {
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 171px;
+    width: 600px;
+    height: 710px;
+    background-image: url(pictures/logo.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .box {
+    width: 170px;
+    height: 60px;
+    margin-left: 890px;
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: 35px 100px 35px;
+  }
+  .left_point {
+    background-image: url(pictures/left.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .numbering {
+    font-size: 50px;
+    color: #f1cf83;
+    text-align: center;
+  }
+  .right_point {
+    background-position: center;
+    background-size: cover;
+    background-image: url(pictures/right.png);
+  }
+</style>

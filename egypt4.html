@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <main
+    style="
+      background-image: url(pictures/background.png);
+      background-position: center;
+      background-size: cover;
+      width: 1920px;
+      height: 1080px;
+    "
+  >
+    <div class="content">
+      <div class="video">
+        <video width="900px" height="700px" controls>
+        <source src="video/Ramesses the Great_ Reign of the God-King - Egyptian History - Part 2 - Extra History.mp4" type="video/mp4">
+      </div>
+      <div class="text">
+        Rameses II, the mighty pharaoh who ruled ancient Egypt for over 60
+        years, left an indelible mark on history. This video explores the life,
+        achievements, and enduring legacy of one of antiquity's most powerful
+        and iconic figures. Witness the grandeur of his monumental
+        constructions, military conquests, and the enigmatic connections to the
+        Biblical Exodus narrative.
+      </div>
+    </div>
+
+    <div id="bottom">
+      <div class="box">
+        <a href="egypt3.html" style="background-image: url(pictures/left.png);"><div class="left_point"></div></a>
+
+        <div class="numbering">4/5</div>
+        <a href="egypt5.html" style="background-image: url(pictures/right.png);"><div class="right_point"></div></a>
+      </div>
+    </div>
+  </main>
+</html>
+<style>
+  main {
+    display: grid;
+    grid-template-rows: 940px 140px;
+  }
+  #top {
+    height: 940px;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1000px 767px;
+  }
+  .video {
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+  .text {
+    text-align: center;
+    color: white;
+    font-size: 30pt;
+    width: 767px;
+
+    margin-top: 250px;
+  }
+
+  #bottom {
+    height: 140px;
+  }
+  .box {
+    width: 170px;
+    height: 60px;
+    margin-left: 890px;
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: 35px 100px 35px;
+  }
+  .left_point {
+    background-image: url(pictures/left.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .numbering {
+    font-size: 50px;
+    color: #f1cf83;
+    text-align: center;
+  }
+  .right_point {
+    background-position: center;
+    background-size: cover;
+    background-image: url(pictures/right.png);
+  }
+</style>
